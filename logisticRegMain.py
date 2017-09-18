@@ -1,11 +1,8 @@
 #!/usr/bin/python
 
 import numpy as np
-from scipy.special import expit
-import matplotlib.pyplot as plt
 from scipy.optimize import fmin_bfgs
 from logisticReg import LogisticReg
-from logisticRegTest import UnitTest
 
 if __name__ == "__main__":
     
